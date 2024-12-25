@@ -1,6 +1,6 @@
 public class User extends Person{
-    String email,password;
-    Role role;
+    private String email,password;
+    private Role role;
 
     public User(String name, int age,String email,String password, Role role) {
         super(name, age);
