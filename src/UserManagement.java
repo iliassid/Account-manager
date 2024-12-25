@@ -1,8 +1,11 @@
 import java.util.ArrayList;
+import java.util.Scanner;
 
 public class UserManagement {
-    ArrayList<Role>roles=new ArrayList<>();
     ArrayList<User>users=new ArrayList<>();
+    ArrayList<Role>roles=new ArrayList<>();
+
+
     public void AddUser(){
 
     }

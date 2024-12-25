@@ -35,12 +35,10 @@ public class User extends Person{
 
     @Override
     public String toString() {
-        return "User{" +
-                "role=" + role +
-                ", name='" + name + '\'' +
-                ", password='" + password + '\'' +
-                ", email='" + email + '\'' +
-                ", age=" + age +
-                '}';
+        return
+                "\nRole----->  " + role.getRoleName() +
+                "\nName-----> " + getName() +
+                "\nAge-------> " + getAge() +
+                "\nEmail-----> " +getEmail() ;
     }
 }
