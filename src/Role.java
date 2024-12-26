@@ -1,5 +1,5 @@
 public class Role {
-    String roleName;
+    private String roleName;
 
     public Role(String roleName) {
         this.roleName = roleName;
@@ -13,4 +13,8 @@ public class Role {
         this.roleName = roleName;
     }
 
+    @Override
+    public String toString() {
+        return super.toString();
+    }
 }
