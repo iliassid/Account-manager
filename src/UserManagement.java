@@ -6,7 +6,6 @@ import java.util.regex.Pattern;
 
 public class UserManagement {
     ArrayList<User>users=new ArrayList<>();
-    //ArrayList<Role>roles=new ArrayList<>();
     Scanner scanner = new Scanner(System.in);
     String email;
 
